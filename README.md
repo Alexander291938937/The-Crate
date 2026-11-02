@@ -1,14 +1,12 @@
 <div align="center">
 
-# 🎞️ THE CRATE
+<img src="Logos/banner.svg" alt="The Crate Banner" width="100%">
 
 ### La tua musica. Il tuo vinile. Nessun cloud.
 
 **Un lettore musicale per le tue collezioni di MP3: veloce, bellissimo e completamente privato.**
 
 `Offline-first` · `Zero account` · `Zero tracciamento` · `Zero abbonamenti`
-
-<img src="Logos/banner.svg" alt="The Crate Banner" width="100%">
 
 </div>
 
