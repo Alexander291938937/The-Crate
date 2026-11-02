@@ -8,6 +8,8 @@
 
 `Offline-first` · `Zero account` · `Zero tracciamento` · `Zero abbonamenti`
 
+<img src="Logos/banner.svg" alt="The Crate Banner" width="100%">
+
 </div>
 
 ---
