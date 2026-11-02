@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="The Crate: la tua musica, il tuo vinile, nessun cloud">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#FF5A1F" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#FF5A1F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 .94  0 0 0 0 .9  0 0 0 0 .82  0 0 0 .9 0"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity=".6"/>
+    </filter>
+    <clipPath id="frame"><rect width="1280" height="360" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="#0E0D0B"/>
+    <rect width="1280" height="360" fill="url(#glow)"/>
+
+    <!-- righe di sfondo, come solchi -->
+    <g fill="none" stroke="#6B6B4E" stroke-opacity=".12">
+      <circle cx="1040" cy="180" r="190"/>
+      <circle cx="1040" cy="180" r="230"/>
+      <circle cx="1040" cy="180" r="270"/>
+      <circle cx="1040" cy="180" r="310"/>
+    </g>
+
+    <!-- vinile -->
+    <g filter="url(#shadow)">
+      <circle cx="1040" cy="180" r="150" fill="#0a0908" stroke="#050504" stroke-width="2"/>
+    </g>
+    <g fill="none" stroke="#2a271f" stroke-width="1.2">
+      <circle cx="1040" cy="180" r="140"/>
+      <circle cx="1040" cy="180" r="130"/>
+      <circle cx="1040" cy="180" r="120"/>
+      <circle cx="1040" cy="180" r="110"/>
+      <circle cx="1040" cy="180" r="100"/>
+      <circle cx="1040" cy="180" r="90"/>
+      <circle cx="1040" cy="180" r="80"/>
+      <circle cx="1040" cy="180" r="70"/>
+    </g>
+    <path d="M1040 180 L1128 62 A150 150 0 0 1 1170 120 Z" fill="#EFE6D2" opacity=".07"/>
+    <path d="M1040 180 L952 298 A150 150 0 0 1 910 240 Z" fill="#EFE6D2" opacity=".07"/>
+    <circle cx="1040" cy="180" r="52" fill="#FF5A1F"/>
+    <circle cx="1040" cy="180" r="40" fill="none" stroke="#0E0D0B" stroke-opacity=".35" stroke-width="1.5"/>
+    <text x="1040" y="176" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="9" font-weight="700" letter-spacing="2" fill="#0E0D0B">THE CRATE</text>
+    <text x="1040" y="192" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="8" letter-spacing="2" fill="#0E0D0B" opacity=".75">33 ⅓ RPM</text>
+    <circle cx="1040" cy="180" r="6" fill="#0E0D0B"/>
+
+    <!-- copertina da cui esce il disco -->
+    <g transform="rotate(-4 830 180)" filter="url(#shadow)">
+      <rect x="700" y="50" width="260" height="260" rx="4" fill="#6B6B4E"/>
+      <rect x="712" y="62" width="236" height="236" fill="none" stroke="#EFE6D2" stroke-opacity=".5" stroke-width="2"/>
+      <circle cx="830" cy="160" r="62" fill="#0E0D0B"/>
+      <circle cx="830" cy="160" r="46" fill="none" stroke="#6B6B4E" stroke-width="2"/>
+      <circle cx="830" cy="160" r="30" fill="none" stroke="#6B6B4E" stroke-width="2"/>
+      <circle cx="830" cy="160" r="16" fill="#FF5A1F"/>
+      <circle cx="830" cy="160" r="3" fill="#0E0D0B"/>
+      <text x="830" y="262" text-anchor="middle" font-family="'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif" font-size="28" font-weight="800" letter-spacing="-1" fill="#EFE6D2">THE CRATE</text>
+      <text x="830" y="282" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="10" letter-spacing="3" fill="#EFE6D2" opacity=".75">SIDE A</text>
+    </g>
+
+    <!-- braccio del giradischi -->
+    <g>
+      <path d="M1210 50 L1210 150 L1122 236" fill="none" stroke="#EFE6D2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/>
+      <rect x="1104" y="228" width="26" height="14" rx="2" transform="rotate(-42 1117 235)" fill="#EFE6D2"/>
+      <circle cx="1210" cy="50" r="24" fill="#231F18" stroke="#6B6B4E" stroke-width="2.5"/>
+      <circle cx="1210" cy="50" r="8" fill="#FF5A1F"/>
+    </g>
+
+    <!-- testi -->
+    <text x="64" y="64" font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" font-weight="600" letter-spacing="4" fill="#6B6B4E">LETTORE MUSICALE · N° 001</text>
+
+    <text x="60" y="176" font-family="'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif" font-size="104" font-weight="800" letter-spacing="-4" fill="#EFE6D2">THE CRATE</text>
+
+    <text x="400" y="104" transform="rotate(-6 400 104)" font-family="'Caveat','Segoe Print','Bradley Hand',cursive" font-size="34" font-weight="700" fill="#FF5A1F">Scava qualcosa.</text>
+
+    <text x="64" y="226" font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="20" font-weight="600" fill="#EFE6D2">La tua musica. Il tuo vinile. <tspan fill="#FF5A1F">Nessun cloud.</tspan></text>
+
+    <!-- chip -->
+    <g font-family="'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="2" fill="#A8A28A" text-anchor="middle">
+      <rect x="64" y="266" width="160" height="38" rx="19" fill="none" stroke="#6B6B4E" stroke-width="1.5"/>
+      <text x="144" y="290">OFFLINE-FIRST</text>
+      <rect x="236" y="266" width="150" height="38" rx="19" fill="none" stroke="#6B6B4E" stroke-width="1.5"/>
+      <text x="311" y="290">ZERO ACCOUNT</text>
+      <rect x="398" y="266" width="196" height="38" rx="19" fill="none" stroke="#6B6B4E" stroke-width="1.5"/>
+      <text x="496" y="290">ZERO TRACCIAMENTO</text>
+    </g>
+
+    <!-- grana analogica -->
+    <rect width="1280" height="360" filter="url(#grain)" opacity=".05"/>
+    <rect x="1" y="1" width="1278" height="358" rx="13" fill="none" stroke="#6B6B4E" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+</svg>
