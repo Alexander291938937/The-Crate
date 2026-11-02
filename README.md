@@ -143,6 +143,13 @@ Nessun abbonamento, nessun limite, nessuna pubblicità.
 
 ---
 
+## Crediti
+
+Idea, direzione creativa e design: **Simplegoat99**
+Sviluppo realizzato con l'assistenza di **Claude** (Anthropic)
+
+---
+
 <div align="center">
 
 ### Smetti di affittare la tua musica. Torna a possederla.
