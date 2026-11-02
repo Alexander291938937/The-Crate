@@ -117,7 +117,6 @@ Nessuna registrazione. Nessuna configurazione. Nessuna carta di credito.
 
 Per chi ama sapere cosa c'è dentro:
 
-- **Single-file**: un solo `index.html`, **zero dipendenze**, nessuna build
 - **Vanilla JavaScript**, nessun framework
 - **IndexedDB** per archiviare brani, copertine e playlist localmente
 - **Parser ID3 integrato** scritto da zero
